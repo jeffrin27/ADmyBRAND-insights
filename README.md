@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 💡 ADmyBRAND Insights
 
-## Getting Started
+A powerful AI-powered analytics dashboard tailored for digital marketing agencies. This project visualizes campaign data, social media performance, and audience metrics using sleek UI components and modern frameworks.
 
-First, run the development server:
+## 🚀 Live Demo
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Check out the deployed project: https://a-dmy-brand-insights-eohl.vercel.app/
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠 Tech Stack
 
-## Learn More
+- **Framework**: Next.js (App Router)
+- **Languages**: JavaScript / TypeScript
+- **Styling**: Tailwind CSS
+- **Components**: shadcn/ui
+- **Icons**: lucide-react
+- **Charts**: Recharts
+- **Deployment**: Vercel
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📂 Project Structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+admybrand-dashboard/
+│
+├── .next/                  # Build output (auto-generated)
+├── app/                   # Main app directory (Next.js routing)
+├── components/            # Reusable React components
+├── lib/                   # Utility/helper functions or modules
+├── node_modules/          # Project dependencies
+├── public/                # Static files (images, icons, etc.)
+│
+├── .gitignore             # Git ignored files
+├── components.json        # Configuration for components
+├── eslint.config.mjs      # ESLint config
+├── jsconfig.json          # JS config for path aliases
+├── next.config.mjs        # Next.js configuration
+├── package.json           # Project metadata and scripts
+├── package-lock.json      # Exact version of installed packages
+├── postcss.config.mjs     # PostCSS configuration
+└── README.md              # Project overview and instructions
 
-## Deploy on Vercel
+## Features
+-Real-time analytics visualized via interactive charts  
+-AI-assisted dashboard structure and content organization
+-Modular UI with reusable and clean components 
+-Light & Dark theme toggle 
+-Fully responsive and blazing fast
+## Setup Instructions
+Step 1: clone the Repository
+        git clone https://github.com/your-username/admybrand-dashboard.git
+        cd admybrand-dashboard
+Step 2: Install Dependencies
+        npm install
+Step 3: Start the Development Server
+        npm run dev
+        
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
